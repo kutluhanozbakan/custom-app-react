@@ -8,6 +8,7 @@ import About from './components/About';
 
 import React from 'react'
 import Navbar from "./components/public/Navbar";
+import Footer from "./components/public/Footer";
 function App() {
   return (
     <>
@@ -17,9 +18,9 @@ function App() {
           <Route path="/" element={ <Home/> }/>
           <Route path="/menu" element={ <Menu/> }/>
           <Route path="/contact" element={ <Contact/> }/>
-          <Route path="/about"  element={ <About/>}/>
-
+          <Route path="/about"  element={ <About/>}/>      
         </Routes>
+        <Footer/>
       </div>
     </>
   );
