@@ -7,10 +7,12 @@ import Contact from './components/Contact';
 import About from './components/About';
 
 import React from 'react'
+import Navbar from "./components/public/Navbar";
 function App() {
   return (
     <>
       <div>
+        <Navbar/>
         <Routes>
           <Route path="/" element={ <Home/> }/>
           <Route path="/menu" element={ <Menu/> }/>
