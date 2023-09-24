@@ -1,6 +1,5 @@
 .footer {
     width: 100%;
-    height: 200px;
     background-color: white;
     /* ---- */
     display: flex;
@@ -9,11 +8,12 @@
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
+    padding: 10px;
 }
 
 .socialMedia svg {
   color: black;
-  margin: 20px;
+  margin: 10px;
   font-size: 30px;
   cursor: pointer;
 }
